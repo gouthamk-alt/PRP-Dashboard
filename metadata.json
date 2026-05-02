@@ -1,0 +1,6 @@
+{
+  "name": "Inventory Real-Time Dashboard",
+  "description": "A real-time dashboard for visualizing property inventory data from Google Spreadsheets with mobile-friendly widgets and filtering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
