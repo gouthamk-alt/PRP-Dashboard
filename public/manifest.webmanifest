@@ -2,7 +2,7 @@
   "name": "Inventory Dashboard",
   "short_name": "Inventory",
   "description": "Real-time inventory data visualization",
-  "start_url": "./",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#E4E3E0",
   "theme_color": "#141414",

@@ -1110,6 +1110,7 @@ export default function App() {
                             ) : (
                               <>
                                 <th className="p-3 text-[10px] font-mono uppercase opacity-50">Split Duration</th>
+                                <th className="p-3 text-[10px] font-mono uppercase opacity-50">Inspector</th>
                                 <th className="p-3 text-[10px] font-mono uppercase opacity-50">Online App</th>
                               </>
                             )}
@@ -1141,6 +1142,7 @@ export default function App() {
                                 ) : (
                                   <>
                                     <td className="p-3 text-xs font-mono">{item._splitDuration}</td>
+                                    <td className="p-3 text-xs">{item._inspector}</td>
                                     <td className="p-3 text-xs">
                                       {item._onlineApp && item._onlineApp !== "Word" ? (
                                         <Badge variant="secondary" className="bg-green-50 text-green-700 border-green-100 font-mono text-[10px]">
